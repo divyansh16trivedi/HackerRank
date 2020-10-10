@@ -1,0 +1,10 @@
+In this challenge, we're getting started with conditional statements.
+
+CODE:
+
+if __name__ == '__main__':
+    N = int(input())
+    if ((N & 1) or (6 <= N and N <= 20)):
+        print("Weird")
+    else:
+        print("Not Weird")
