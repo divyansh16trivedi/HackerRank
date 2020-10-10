@@ -1,0 +1,10 @@
+Today we're expanding our knowledge of Strings and combining it with what we've already learned about loops.
+
+CODE :
+
+t = int(input())
+for _ in range(t):
+    s = input()
+    a = s[0::2]  # slicing
+    b = s[1::2]
+    print(a,b)
